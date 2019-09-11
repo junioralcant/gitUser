@@ -20,7 +20,6 @@ import {
 } from './styles';
 
 export default class Main extends Component {
-
   static navigationOptions = {
     title: 'Usuários',
   };
@@ -30,7 +29,7 @@ export default class Main extends Component {
       navigate: PropTypes.func,
     }).isRequired,
   };
-  
+
   state = {
     newUser: '',
     users: [],
@@ -124,4 +123,3 @@ export default class Main extends Component {
     );
   }
 }
-
